@@ -256,6 +256,17 @@ button .fas {
 .success-message {
   background-color: #e8f4fc;
   color: #003c71;
+  display: block;
+}
+
+.celebration-message {
+  background-color: #fff7d6;
+  color: #704d00;
+  display: block;
+}
+
+.celebration-message strong {
+  color: #b45309;
 }
 
 /* Counter */
@@ -346,6 +357,56 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+.attendee-list {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.attendee-list h4 {
+  margin-bottom: 10px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+#attendeeList {
+  list-style: none;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.attendee-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 14px;
+  background-color: #fff;
+}
+
+.attendee-item + .attendee-item {
+  border-top: 1px solid #e2e8f0;
+}
+
+.attendee-name {
+  color: #334155;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.attendee-team {
+  color: #64748b;
+  font-size: 14px;
+  text-align: right;
+}
+
+.empty-attendee-list {
+  padding: 12px 14px;
+  color: #94a3b8;
+  font-size: 14px;
+  text-align: center;
 }
 
 /* Mobile responsive */
